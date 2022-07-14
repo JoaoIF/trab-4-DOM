@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1.32em;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    background-color: #333;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    max-width: 600px;
+    max-height: 470px;
+    gap: 50px;
+    margin: 0px auto;
+    background-color: #aaa;
+}
+.div-btt {
+    background-color: #fff;
+    height: 80px;
+    border-radius: 40px;
+    text-align: center;
+}
+.botao {    
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    color: #111;
+    background-position: center;
+    background-size: cover;
+}
+.botao:hover {
+    background-color: #ffa;
+    /* transform: rotateZ(360deg);
+    transition: 600ms ease-out; */
+}
+.start-game {
+    border: 1px solid red;
+    width: 400px;
+    height: 145px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -200px;
+    background-color: #111;
+    z-index: 100;
+}
+button {
+    color: #fb4b5c;
+}
+.start-game #btt1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px auto;
+    border: 1px solid #fb4b5c;
+    border-radius: 50px;
+    width: 80%;
+    background: none;
+    color: none;
+    cursor: pointer;
+}
+.start-game #btt2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px auto;
+    border: 1px solid #fb4b5c;
+    border-radius: 50px;
+    width: 80%;
+    background: none;
+    color: none;
+    cursor: pointer;
+}
